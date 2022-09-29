@@ -52,10 +52,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone https://github.com/gustavo-nt/ignite-list
 
 # Instale as dependências
-$ yarn 
+$ yarn ou npm
 
 # Execute a aplicação
-$ yarn dev
+$ yarn ou npm dev
 ```
 
 ### 🚀 Tecnologias
