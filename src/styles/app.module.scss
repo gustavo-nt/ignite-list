@@ -1,0 +1,67 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 4rem auto;
+}
+
+.todoListHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+
+  div {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    > span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-weight: 700;
+      border-radius: 999px;
+      color: var(--gray-200);
+
+      line-height: 15px;
+      font-size: 0.75rem;
+      padding: 0.125rem 0.5rem;
+      background: var(--gray-400);
+    }
+
+    &:first-of-type p,
+    &:last-of-type p {
+      font-weight: 700;
+      color: var(--blue-300);
+    }
+  }
+}
+
+.emptyTodoList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-top: 4rem;
+  line-height: 22.4px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+
+  svg {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .searchForm {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

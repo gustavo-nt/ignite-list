@@ -1,0 +1,84 @@
+.todoItem {
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  margin-bottom: 1.5rem;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+
+  span {
+    padding-right: 3rem;
+    line-height: 19.6px;
+    color: var(--white);
+    font-size: 0.875rem;
+  }
+
+  input[type="checkbox"] {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+
+    padding: 6px;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: 2px solid var(--blue-300);
+
+    display: grid;
+    place-content: center;
+    background: transparent;
+    transition: border-color 0.2s;
+    transform: translateY(-0.075em);
+
+    &:checked {
+      border: none;
+      opacity: 0.8;
+      background-color: var(--purple-600);
+
+      ~ span {
+        text-decoration-line: line-through;
+        color: var(--gray-300);
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &::before {
+        transform: scale(1);
+      }
+    }
+
+    &:hover {
+      border-color: var(--blue-600);
+    }
+
+    &:before {
+      content: "";
+      width: 0.65em;
+      height: 0.65em;
+      transform: scale(0);
+      clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 47% 70%);
+      box-shadow: inset 0.5rem 0.5rem var(--white);
+      transition: 120ms transform ease-in-out;
+      transform-origin: bottom left;
+      background-color: CanvasText;
+    }
+  }
+}
+
+.trashIcon {
+  right: 1rem;
+  position: absolute;
+  color: var(--gray-300);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--red-500);
+  }
+}
