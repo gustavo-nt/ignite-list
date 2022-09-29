@@ -1,5 +1,5 @@
 <h4 align="center">
-  <img src="https://github.com/gustavo-nt/ignite-to.do/blob/master/public/assets/icon-list.png" alt="logo" />
+  <img src="https://github.com/gustavo-nt/ignite-list/blob/master/src/assets/logo.svg" alt="Ignite List" />
 </h4>
 
 <h1 align="center">
