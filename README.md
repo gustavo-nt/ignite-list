@@ -37,7 +37,7 @@
 O to.do é uma aplicação para adições de tarefas em um lista, onde o usuário consegue marcar aqueles itens já concluídos. Esse Projeto foi desenvolvido como desafio complementar da Semana 01 do Bootcamp Ignite.
 
 ### ✅ Demonstração
-<img src="https://github.com/gustavo-nt/ignite-list/blob/master/src/assets/home.png />
+<img src="https://github.com/gustavo-nt/ignite-list/blob/master/src/assets/home.png" />
 
 ### ⚙ Pré-requisitos
 
