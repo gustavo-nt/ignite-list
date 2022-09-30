@@ -3,7 +3,7 @@
 </h4>
 
 <h1 align="center">
-    🚀 Ignite List
+    🚀 to.do
 </h1>
 <p align="center">Desafio do Bootcamp Ignite sobre fundamentos de ReactJS</p>
 
